@@ -13,5 +13,7 @@ public class Modul {
     private String studiengang;
     private String startsemester;
     private int studienlaenge;
-    private String verpflichtungsfach;
+    private String vertiefungsrichtung;
+    private String einfuehrungsmodule;
+    private String praktikum;
 }

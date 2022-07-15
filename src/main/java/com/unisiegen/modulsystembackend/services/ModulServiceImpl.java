@@ -36,7 +36,9 @@ public class ModulServiceImpl implements ModulService {
                         mod.getStudiengang(),
                         mod.getStartsemester(),
                         mod.getStudienlaenge(),
-                        mod.getVerpflichtungsfach())).
+                        mod.getVertiefungsrichtung(),
+                        mod.getEinfuehrungsmodule(),
+                        mod.getPraktikum())).
                 collect(Collectors.toList());
         return moduls;
     }
