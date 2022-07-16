@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 public class Modul {
 
     private long id;
-    private String studiengang;
+    private String studiengaenge;
     private String startsemester;
     private int studienlaenge;
     private String vertiefungsrichtung;
